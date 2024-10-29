@@ -20,7 +20,7 @@ const config: Config = {
 			},
 			colors: {
 				success: 'var(--success)',
-				background: 'hsl(var(--background))',
+				background: 'var(--background)',
 				foreground: 'hsl(var(--foreground))',
 				card: {
 					DEFAULT: 'hsl(var(--card))',

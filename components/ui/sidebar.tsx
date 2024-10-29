@@ -211,7 +211,7 @@ const Sidebar = React.forwardRef<
 					// Adjust the padding for floating and inset variants.
 					variant === 'floating' || variant === 'inset'
 						? 'p-2 group-data-[collapsible=icon]:w-[calc(var(--sidebar-width-icon)_+_theme(spacing.4)_+2px)]'
-						: 'group-data-[collapsible=icon]:w-[--sidebar-width-icon] group-data-[side=left]:border-r group-data-[side=right]:border-l',
+						: 'group-data-[collapsible=icon]:w-[--sidebar-width-icon] shadow-md group-data-[side=right]:border-l',
 					className
 				)}
 				{...props}
@@ -388,7 +388,7 @@ const SidebarGroupLabel = React.forwardRef<HTMLDivElement, React.ComponentProps<
 				ref={ref}
 				data-sidebar="group-label"
 				className={cn(
-					'duration-200 flex h-8 mb-2 shrink-0 items-center rounded-md font-semibold text-sidebar-foreground/70 outline-none ring-sidebar-ring transition-[margin,opa] ease-linear focus-visible:ring-2 [&>svg]:size-4 [&>svg]:shrink-0',
+					'duration-200 flex h-8 mb-2 shrink-0 items-center rounded-md font-semibold text-[15px] text-sidebar-foreground/70 outline-none ring-sidebar-ring transition-[margin,opa] ease-linear focus-visible:ring-2 [&>svg]:size-4 [&>svg]:shrink-0',
 					'group-data-[collapsible=icon]:-mt-8 group-data-[collapsible=icon]:opacity-0',
 					className
 				)}

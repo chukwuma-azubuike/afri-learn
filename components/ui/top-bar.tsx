@@ -7,30 +7,30 @@ import PlayIcon from '../icon/play';
 
 const TopBar: React.FC = () => {
 	return (
-		<div className="w-full fixed z-20 h-[76px] box-border p-5 flex items-center shadow-md gap-10">
-			<Button variant="link" className="p-0">
+		<div className="bg-white w-full fixed z-20 h-[76px] box-border p-5 flex items-center shadow-md gap-10">
+			<Button variant="link" className="p-0 font-normal">
 				<VectorIcon />
 				Assessment
 			</Button>
 			<div className="flex w-full justify-between items-center gap-2">
-				<div className="flex gap-3 font-semibold">
-					<h3 className="max-w-max">Primary 1</h3>
-					<h3>.</h3>
-					<h3 className="truncate max-w-max">Mid Term Test</h3>
-					<h3>.</h3>
-					<h3 className="truncate max-w-max">Agricultural Science</h3>
+				<div className="flex gap-3 font-semibold min-w-4">
+					<h4 className="truncate">Primary 1</h4>
+					<h4>.</h4>
+					<h4 className="truncate">Mid Term Test</h4>
+					<h4>.</h4>
+					<h4 className="truncate">Agricultural Science</h4>
 				</div>
-				<div className="flex gap-4 font-semibold items-center">
-					<Button variant="link" className="p-0">
+				<div className="flex gap-4 items-center font-normal">
+					<Button variant="link" className="p-0 font-normal">
 						<InfoIcon />
 						Test Info
 					</Button>
 					<p className="font-normal text-xl text-gray-300">|</p>
-					<Button variant="link" className="p-0">
+					<Button variant="link" className="p-0 font-normal">
 						<EyeIcon />
 						Test preview
 					</Button>
-					<Button className="p-3">
+					<Button className="p-3 font-normal">
 						<PlayIcon />
 						Activate test
 					</Button>
