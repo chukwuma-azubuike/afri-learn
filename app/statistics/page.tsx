@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Home: React.FC = () => {
+const Statistics: React.FC = () => {
 	return <main className=""></main>;
 };
 
-export default Home;
+export default Statistics;
