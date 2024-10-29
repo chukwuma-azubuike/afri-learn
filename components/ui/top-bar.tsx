@@ -13,7 +13,7 @@ const TopBar: React.FC = () => {
 				Assessment
 			</Button>
 			<div className="flex w-full justify-between items-center gap-2">
-				<div className="flex gap-3 font-semibold min-w-4">
+				<div className="flex gap-3 font-semibold min-w-4 text-foreground">
 					<h4 className="truncate">Primary 1</h4>
 					<h4>.</h4>
 					<h4 className="truncate">Mid Term Test</h4>

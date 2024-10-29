@@ -1,0 +1,65 @@
+[
+	{
+		"percentage": 50,
+		"score": 15,
+		"total": 30,
+		"title": "Flowering plants",
+		"color": "#FFEF9B"
+	},
+	{
+		"percentage": 100,
+		"score": 30,
+		"total": 30,
+		"title": "Flowering plants",
+		"color": "#F9D5D5"
+	},
+	{
+		"percentage": 25,
+		"score": 8,
+		"total": 30,
+		"title": "Flowering plants",
+		"color": "#EFD8E5"
+	},
+	{
+		"percentage": 50,
+		"score": 15,
+		"total": 30,
+		"title": "Flowering plants",
+		"color": "#CDD5FF"
+	},
+	{
+		"percentage": 50,
+		"score": 15,
+		"total": 30,
+		"title": "Flowering plants",
+		"color": "#D2F0BB"
+	},
+	{
+		"percentage": 10,
+		"score": 3,
+		"total": 30,
+		"title": "Flowering plants",
+		"color": "#CEEEE2"
+	},
+	{
+		"percentage": 15,
+		"score": 10,
+		"total": 30,
+		"title": "Flowering plants",
+		"color": "#CEEEE2"
+	},
+	{
+		"percentage": 15,
+		"score": 10,
+		"total": 30,
+		"title": "Flowering plants",
+		"color": "#CEEEE2"
+	},
+	{
+		"percentage": 20,
+		"score": 6,
+		"total": 30,
+		"title": "Flowering plants",
+		"color": "#EEDACE"
+	}
+]

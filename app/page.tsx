@@ -1,7 +1,9 @@
 import React from 'react';
+import { redirect } from 'next/navigation';
 
 const Home: React.FC = () => {
-	return <main className=""></main>;
+	redirect('/statistics');
+	return <main></main>;
 };
 
 export default Home;

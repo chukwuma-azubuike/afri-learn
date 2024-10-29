@@ -1,19 +1,15 @@
 'use client';
 
+import { IQuestionScore } from '@/types/questions';
 import { Card, CardContent } from './card';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
-interface IStatisticCardProps {
-	percentage: number;
-	score?: number;
-	total?: number;
-	title: string;
-}
+type IStatisticCardProps = IQuestionScore;
 
 const StatisticCard: React.FC<IStatisticCardProps> = ({ percentage, score, total, title, ...props }) => {
 	return (
-		<Card className="w-full">
+		<Card className="w-full" {...props}>
 			<CardContent className="p-6 h-48">
 				<div className="flex justify-between h-full items-start">
 					<h1 className="text-lg text-gray-500 font-semibold">{title}</h1>

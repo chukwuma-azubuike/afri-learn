@@ -2,6 +2,7 @@ import React from 'react';
 import PieChartIcon from '@/components/icon/pie-chart';
 import PageHeader from '@/components/ui/page-header';
 import StatisticCard from '@/components/ui/statistic-card';
+import ScoreBoard from '@/components/ui/score-board';
 
 const Statistics: React.FC = () => {
 	return (
@@ -12,6 +13,7 @@ const Statistics: React.FC = () => {
 				<StatisticCard percentage={75} score={22} total={30} title="Above Avg." />
 				<StatisticCard percentage={50} title="Average score" />
 			</div>
+			<ScoreBoard />
 		</main>
 	);
 };

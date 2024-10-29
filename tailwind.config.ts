@@ -21,34 +21,34 @@ const config: Config = {
 			colors: {
 				success: 'var(--success)',
 				background: 'var(--background)',
-				foreground: 'hsl(var(--foreground))',
+				foreground: 'var(--foreground)',
 				card: {
 					DEFAULT: 'hsl(var(--card))',
-					foreground: 'hsl(var(--card-foreground))',
+					foreground: 'var(--card-foreground)',
 				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
-					foreground: 'hsl(var(--popover-foreground))',
+					foreground: 'var(--popover-foreground)',
 				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))',
+					foreground: 'var(--primary-foreground)',
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
-					foreground: 'hsl(var(--secondary-foreground))',
+					foreground: 'var(--secondary-foreground)',
 				},
 				muted: {
 					DEFAULT: 'hsl(var(--muted))',
-					foreground: 'hsl(var(--muted-foreground))',
+					foreground: 'var(--muted-foreground)',
 				},
 				accent: {
 					DEFAULT: 'hsl(var(--accent))',
-					foreground: 'hsl(var(--accent-foreground))',
+					foreground: 'var(--accent-foreground)',
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
-					foreground: 'hsl(var(--destructive-foreground))',
+					foreground: 'var(--destructive-foreground)',
 				},
 				border: 'var(--border)',
 				input: 'hsl(var(--input))',
@@ -62,11 +62,11 @@ const config: Config = {
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
+					foreground: 'var(--sidebar-foreground)',
 					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
+					'primary-foreground': 'var(--sidebar-primary-foreground)',
 					accent: 'var(--sidebar-accent)',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
+					'accent-foreground': 'var(--sidebar-accent-foreground)',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))',
 				},
