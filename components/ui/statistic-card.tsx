@@ -31,7 +31,7 @@ const StatisticCard: React.FC<IStatisticCardProps> = ({ percentage, score, total
 								// Can specify path transition in more detail, or remove it entirely
 								pathTransition: 'none',
 								// Colors
-								pathColor: percentage < 70 ? (percentage < 30 ? 'red' : '#FFDF37') : '#0BC279',
+								pathColor: percentage < 70 ? (percentage < 30 ? '#ff0033' : '#FFDF37') : '#0BC279',
 								textColor: '#000',
 								trailColor: '#f1f5f8',
 							})}
