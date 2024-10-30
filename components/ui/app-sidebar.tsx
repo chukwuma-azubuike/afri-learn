@@ -17,9 +17,9 @@ import ClockIcon from '../icon/clock';
 import DocumentIcon from '../icon/document';
 import ChartIcon from '../icon/chart';
 import AcceptDocumentIcon from '../icon/accept-document';
-import StatisticsIcon from '../icon/statistics';
 import { useCallback } from 'react';
 import isActiveRoute from '@/hooks/use-active-route';
+import PieChartIcon from '../icon/pie-chart';
 
 interface INavItem {
 	title: string;
@@ -39,7 +39,7 @@ const testConfiguration: Array<INavItem> = [
 const testProgressAndResults: Array<INavItem> = [
 	{ title: 'Test results', route: '/test-results', icon: ChartIcon },
 	{ title: 'Test sheets review', route: '/test-sheets-review', icon: AcceptDocumentIcon },
-	{ title: 'Statistics', route: '/statistics', icon: StatisticsIcon },
+	{ title: 'Statistics', route: '/statistics', icon: PieChartIcon },
 ];
 
 export const AppSidebar: React.FC = () => {
